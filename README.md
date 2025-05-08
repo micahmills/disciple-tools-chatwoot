@@ -4,7 +4,7 @@
 
 # Disciple.Tools - Chatwoot
 
-Disciple.Tools Chatwoot is a plugin for Disciple.Tools. It provides integration with Chatwoot through a Chatwoot Webhook integration.
+Disciple.Tools - Chatwoot is a plugin for Disciple.Tools. It provides integration with Chatwoot through a Chatwoot Webhook integration.
 
 ## Purpose
 

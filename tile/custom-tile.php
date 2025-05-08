@@ -29,7 +29,7 @@ class Disciple_Tools_Chatwoot_Tile
      */
     public function dt_details_additional_tiles( $tiles, $post_type = '' ) {
         if ( $post_type === 'contacts' || $post_type === 'chatwoot_post_type' ){
-            $tiles['disciple_tools_chatwoot'] = [ 'label' => __( 'Disciple.Tools Chatwoot', 'disciple-tools-chatwoot' ) ];
+            $tiles['disciple_tools_chatwoot'] = [ 'label' => __( 'Chatwoot', 'disciple-tools-chatwoot' ) ];
             $tiles['a_beautiful_tile'] = [ 'label' => __( 'A Beautiful Tile', 'disciple-tools-chatwoot' ) ];
         }
         return $tiles;

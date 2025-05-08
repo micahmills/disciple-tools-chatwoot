@@ -9,7 +9,7 @@ if ( !defined( 'ABSPATH' ) ) { exit; } // Exit if accessed directly.
 class Disciple_Tools_Chatwoot_Chart_Template extends DT_Metrics_Chart_Base
 {
     public $base_slug = 'disciple-tools-chatwoot-metrics'; // lowercase
-    public $base_title = 'Disciple.Tools Chatwoot Metrics';
+    public $base_title = 'Chatwoot Metrics';
 
     public $title = 'Template';
     public $slug = 'template'; // lowercase

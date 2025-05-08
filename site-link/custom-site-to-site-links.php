@@ -33,7 +33,7 @@ class Disciple_Tools_Chatwoot_Site_Links {
     }
 
     public function site_link_type( $type ) {
-        $type[$this->type] = __( 'Disciple.Tools Chatwoot' );
+        $type[$this->type] = __( 'Chatwoot' );
         return $type;
     }
 }

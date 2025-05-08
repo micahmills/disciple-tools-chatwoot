@@ -7,7 +7,7 @@ if ( ! defined( 'ABSPATH' ) ) { exit; } // Exit if accessed directly
 class Disciple_Tools_Chatwoot_Menu {
 
     public $token = 'disciple_tools_chatwoot';
-    public $page_title = 'Disciple.Tools Chatwoot';
+    public $page_title = 'Chatwoot';
 
     private static $_instance = null;
 
@@ -37,7 +37,7 @@ class Disciple_Tools_Chatwoot_Menu {
 
         add_action( 'admin_menu', array( $this, 'register_menu' ) );
 
-        $this->page_title = __( 'Disciple.Tools Chatwoot', 'disciple-tools-chatwoot' );
+        $this->page_title = __( 'Chatwoot', 'disciple-tools-chatwoot' );
     } // End __construct()
 
 
@@ -46,7 +46,7 @@ class Disciple_Tools_Chatwoot_Menu {
      * @since 0.1
      */
     public function register_menu() {
-        $this->page_title = __( 'Disciple.Tools Chatwoot', 'disciple-tools-chatwoot' );
+        $this->page_title = __( 'Chatwoot', 'disciple-tools-chatwoot' );
 
         add_submenu_page( 'dt_extensions', $this->page_title, $this->page_title, 'manage_dt', $this->token, [ $this, 'content' ] );
     }
