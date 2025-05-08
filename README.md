@@ -2,7 +2,7 @@
 
 ![Plugin Banner](https://raw.githubusercontent.com/DiscipleTools/disciple-tools-chatwoot/master/documentation/banner.png)
 
-# Disciple.Tools - Disciple.Tools Chatwoot
+# Disciple.Tools - Chatwoot
 
 Disciple.Tools Chatwoot is a plugin for Disciple.Tools. It provides integration with Chatwoot through a Chatwoot Webhook integration.
 

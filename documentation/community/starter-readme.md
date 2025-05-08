@@ -1,6 +1,6 @@
 ![Build Status](https://github.com/DiscipleTools/disciple-tools-chatwoot/actions/workflows/ci.yml/badge.svg?branch=master)
 
-# Disciple.Tools - Disciple.Tools Chatwoot
+# Disciple.Tools - Chatwoot
 
 __Kick start your Disciple.Tools plugin project with this template!__
 
