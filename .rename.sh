@@ -1,7 +1,7 @@
-find ./ -type f -print0 | xargs -0 perl -pi -e 's/Disciple_Tools_Plugin_Starter_Template/Disciple_Tools_Plugin_Starter_Template/g';
-find ./ -type f -print0 | xargs -0 perl -pi -e 's/disciple_tools_plugin_starter_template/disciple_tools_plugin_starter_template/g';
-find ./ -type f -print0 | xargs -0 perl -pi -e 's/disciple-tools-plugin-starter-template/disciple-tools-plugin-starter-template/g';
-find ./ -type f -print0 | xargs -0 perl -pi -e 's/starter_post_type/starter_post_type/g';
-find ./ -type f -print0 | xargs -0 perl -pi -e 's/Plugin Starter Template/Plugin Starter Template/g';
-mv disciple-tools-plugin-starter-template.php disciple-tools-plugin-starter-template.php
+find ./ -type f -print0 | xargs -0 perl -pi -e 's/Disciple_Tools_Chatwoot/Disciple_Tools_Chatwoot/g';
+find ./ -type f -print0 | xargs -0 perl -pi -e 's/disciple_tools_chatwoot/disciple_tools_chatwoot/g';
+find ./ -type f -print0 | xargs -0 perl -pi -e 's/disciple-tools-chatwoot/disciple-tools-chatwoot/g';
+find ./ -type f -print0 | xargs -0 perl -pi -e 's/chatwoot_post_type/chatwoot_post_type/g';
+find ./ -type f -print0 | xargs -0 perl -pi -e 's/Disciple.Tools Chatwoot/Disciple.Tools Chatwoot/g';
+mv disciple-tools-chatwoot.php disciple-tools-chatwoot.php
 rm .rename.sh

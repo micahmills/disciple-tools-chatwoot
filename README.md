@@ -1,29 +1,17 @@
-![Build Status](https://github.com/DiscipleTools/disciple-tools-plugin-starter-template/actions/workflows/ci.yml/badge.svg?branch=master)
-## Dev notes, delete me:
-This is a starter plugin to jumpstart your work with Disciple.Tools.
-Click the "Use this template" button above.
-See instructions for refactoring and getting started in the [wiki](https://github.com/DiscipleTools/disciple-tools-plugin-starter-template/wiki)
-See instructions for creating releases and publishing your plugin: [wiki](https://github.com/DiscipleTools/disciple-tools-plugin-starter-template/wiki)
-In order to display the banner correctly on the Disciple.Tools Community Plugins Site, don't change the 'Plugin Banner' text on line 12; only the URL.
+![Build Status](https://github.com/DiscipleTools/disciple-tools-chatwoot/actions/workflows/ci.yml/badge.svg?branch=master)
 
-## readme format:
+![Plugin Banner](https://raw.githubusercontent.com/DiscipleTools/disciple-tools-chatwoot/master/documentation/banner.png)
 
-![Plugin Banner](https://raw.githubusercontent.com/DiscipleTools/disciple-tools-plugin-starter-template/master/documentation/banner.png)
+# Disciple.Tools - Disciple.Tools Chatwoot
 
-# Disciple.Tools - Plugin Starter Template
-
-Description Description Description Description Description Description Description
-Description Description Description Description Description Description Description
+Disciple.Tools Chatwoot is a plugin for Disciple.Tools. It provides integration with Chatwoot through a Chatwoot Webhook integration.
 
 ## Purpose
 
-Purpose purpose purpose purpose purpose purpose purpose purpose purpose purpose purpose
-Purpose purpose purpose purpose purpose purpose purpose purpose purpose purpose purpose
-
-Purpose purpose purpose purpose purpose purpose purpose purpose purpose purpose purpose
-Purpose purpose purpose purpose purpose purpose purpose purpose purpose purpose purpose
+The purpose of this plugin is to provide a way to integrate Chatwoot with Disciple.Tools. This plugin allows you to get contacts that have send message to your Chatwoot inbox and create a contact in Disciple.Tools.
 
 ## Usage
+
 
 #### Will Do
 
@@ -48,11 +36,11 @@ Purpose purpose purpose purpose purpose purpose purpose purpose purpose purpose 
 ## Contribution
 
 Contributions welcome. You can report issues and bugs in the
-[Issues](https://github.com/DiscipleTools/disciple-tools-plugin-starter-template/issues) section of the repo. You can present ideas
-in the [Discussions](https://github.com/DiscipleTools/disciple-tools-plugin-starter-template/discussions) section of the repo. And
-code contributions are welcome using the [Pull Request](https://github.com/DiscipleTools/disciple-tools-plugin-starter-template/pulls)
+[Issues](https://github.com/DiscipleTools/disciple-tools-chatwoot/issues) section of the repo. You can present ideas
+in the [Discussions](https://github.com/DiscipleTools/disciple-tools-chatwoot/discussions) section of the repo. And
+code contributions are welcome using the [Pull Request](https://github.com/DiscipleTools/disciple-tools-chatwoot/pulls)
 system for git. For a more details on contribution see the
-[contribution guidelines](https://github.com/DiscipleTools/disciple-tools-plugin-starter-template/blob/master/CONTRIBUTING.md).
+[contribution guidelines](https://github.com/DiscipleTools/disciple-tools-chatwoot/blob/master/CONTRIBUTING.md).
 
 
 ## Screenshots
