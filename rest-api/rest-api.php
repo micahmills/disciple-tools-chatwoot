@@ -22,7 +22,7 @@ class Disciple_Tools_Chatwoot_Endpoints
         $namespace = 'disciple-tools-chatwoot/v1';
 
         register_rest_route(
-            $namespace, '/endpoint', [
+            $namespace, '/chatwoot', [
                 'methods'  => 'GET',
                 'callback' => [ $this, 'endpoint' ],
                 'permission_callback' => function( WP_REST_Request $request ) {
@@ -33,9 +33,10 @@ class Disciple_Tools_Chatwoot_Endpoints
     }
 
 
-    public function endpoint( WP_REST_Request $request ) {
+    public function chatwoot( WP_REST_Request $request ) {
 
-        // @todo run your function here
+       //Log the request
+       dt_write_log($request);
 
         return true;
     }

@@ -106,40 +106,40 @@ class Disciple_Tools_Chatwoot {
          * @todo Decide if you want to create a new post type
          * To remove: delete the line below and remove the folder named /post-type
          */
-        require_once( 'post-type/loader.php' ); // add starter post type extension to Disciple.Tools system
+        //require_once( 'post-type/loader.php' ); // add starter post type extension to Disciple.Tools system
 
         /**
          * @todo Decide if you want to create a custom site-to-site link
          * To remove: delete the line below and remove the folder named /site-link
          */
-        require_once( 'site-link/custom-site-to-site-links.php' ); // add site to site link class and capabilities
+        //require_once( 'site-link/custom-site-to-site-links.php' ); // add site to site link class and capabilities
 
         /**
          * @todo Decide if you want to add new charts to the metrics section
          * To remove: delete the line below and remove the folder named /charts
          */
-        if ( strpos( dt_get_url_path(), 'metrics' ) !== false || ( $is_rest && strpos( dt_get_url_path(), 'disciple-tools-chatwoot-metrics' ) !== false ) ){
-            require_once( 'charts/charts-loader.php' );  // add custom charts to the metrics area
-        }
+        // if ( strpos( dt_get_url_path(), 'metrics' ) !== false || ( $is_rest && strpos( dt_get_url_path(), 'disciple-tools-chatwoot-metrics' ) !== false ) ){
+        //     require_once( 'charts/charts-loader.php' );  // add custom charts to the metrics area
+        // }
 
         /**
          * @todo Decide if you want to add a custom tile or settings page tile
          * To remove: delete the lines below and remove the folder named /tile
          */
-        require_once( 'tile/custom-tile.php' ); // add custom tile
-        if ( 'settings' === dt_get_url_path() && ! $is_rest ) {
-            require_once( 'tile/profile-settings-tile.php' ); // add custom settings page tile
-        }
+        // require_once( 'tile/custom-tile.php' ); // add custom tile
+        // if ( 'settings' === dt_get_url_path() && ! $is_rest ) {
+        //     require_once( 'tile/profile-settings-tile.php' ); // add custom settings page tile
+        // }
 
         /**
          * @todo Decide if you want to create a magic link
          * To remove: delete the line below and remove the folder named /magic-link
          */
-        require_once( 'magic-link/post-type-magic-link/magic-link-post-type.php' );
-        require_once( 'magic-link/magic-link-user-app.php' );
-        require_once( 'magic-link/magic-link-login-user-app.php' );
-        require_once( 'magic-link/magic-link-non-object.php' );
-        require_once( 'magic-link/magic-link-map.php' );
+        // require_once( 'magic-link/post-type-magic-link/magic-link-post-type.php' );
+        // require_once( 'magic-link/magic-link-user-app.php' );
+        // require_once( 'magic-link/magic-link-login-user-app.php' );
+        // require_once( 'magic-link/magic-link-non-object.php' );
+        // require_once( 'magic-link/magic-link-map.php' );
 //        require_once( 'magic-link/magic-link-home.php' );
 
         /**
@@ -160,15 +160,15 @@ class Disciple_Tools_Chatwoot {
          * @todo Decide if you want to customize links for your plugin in the plugin admin area
          * To remove: delete the lines below and remove the function named "plugin_description_links"
          */
-        if ( is_admin() ) { // adds links to the plugin description area in the plugin admin list.
-            add_filter( 'plugin_row_meta', [ $this, 'plugin_description_links' ], 10, 4 );
-        }
+        // if ( is_admin() ) { // adds links to the plugin description area in the plugin admin list.
+        //     add_filter( 'plugin_row_meta', [ $this, 'plugin_description_links' ], 10, 4 );
+        // }
 
         /**
          * @todo Decide if you want to create default workflows
          * To remove: delete the line below and remove the folder named /workflows
          */
-        require_once( 'workflows/workflows.php' );
+        // require_once( 'workflows/workflows.php' );
     }
 
     /**
